@@ -4,4 +4,5 @@ You can wake up the workflow by typing 'ts'. And then paste timestamp num or tim
 
 So you will see the result of converted.
 
-Download [Timestamp Converter](http://github.com/nefeed/timstamp-alfred-workflow).
+Download [Timestamp Converter.alfredworkflow](https://github.com/nefeed/timestamp-alfred-workflow/raw/master/Timestamp%20Converter.alfredworkflow).
+Double click to install it.
