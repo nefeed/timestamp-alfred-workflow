@@ -51,6 +51,10 @@ def convert(query):
     if query == 'now' or query == '':
         return str(int(time.time()))
     elif is_numeric(query):
+        if len(query) == 13:
+            query = int(float(query)/1000)
+        elif len(query) != 10:
+            return 'wrong timestamp num'
         localtime = time.localtime(float(query))
         return str(time.strftime('%Y-%m-%d %H:%M:%S', localtime))
     else:
